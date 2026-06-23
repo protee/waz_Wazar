@@ -8,7 +8,7 @@
     <strong style="font-size: 1em;">Tagline:</strong> Build UIs without rewriting time.
   </div>
   <div>
-    <img src="https://www.protee.org/images/waz_Wazar/waz_Wazar.png" alt="waz_Wazar Logo" width="60" style="border-radius: 12px;">
+    <img src="https://www.protee.org/images/waz_Wazar/waz_Wazar.png" alt="waz_Wazar Logo" width="120" style="border-radius: 12px;">
   </div>
 </div>
 
@@ -106,22 +106,15 @@ Starting with 4D v21, the recommended way to install waz_Wazar (and any ogTools 
 
 ---
 
-## Part of the ogTools Suite
+## ogTools Suite – Dependencies
 
 waz_Wazar is the UI foundation of the comprehensive **ogTools suite**—an integrated development ecosystem for 4D. Other key components include:
 
-| Component | Description |
-|-----------|-------------|
-| **wok_Krolific** | Centralized licensing system. |
-| **wox_Xlibrary** | Core utilities for everyday development tasks. |
-| **zen_Nucleus** | The complete ORDA framework binding your database to a sophisticated UI. |
-| **woc_Colours** | Advanced, indexed color management engine. |
-| **wor_Recursive** | Manage hierarchical data with ease. |
-| **wob_Boxes** | Secure, Dropbox-like file repository. |
-| **wod_DevTools** | Instant documentation generation. |
-| **wom_Make** | Build and automation toolkit. |
-
-> Together, these components form a powerful framework that allows developers to focus on unique business logic rather than reinventing the wheel.
+| Icon | Component | Description |
+|------|-----------|-------------|
+| <img src="https://www.protee.org/images/wok_Krolific/wok_Krolific.png" alt="wok_Krolific Logo" width="60" style="border-radius: 12px;"> | **wok_Krolific** | License manager. |
+| <img src="https://www.protee.org/images/wox_Xlibrary/wox_Xlibrary.png" alt="wox_Xlibrary Logo" width="60" style="border-radius: 12px;"> | **wox_Xlibrary** | Core utilities for everyday development tasks. |
+| <img src="https://www.protee.org/images/woc_Colours/woc_Colours.png" alt="woc_Colours Logo" width="60" style="border-radius: 12px;"> | **woc_Colours** | Advanced, indexed color management engine. |
 
 ---
 
@@ -135,10 +128,8 @@ waz_Wazar is a **commercial component** and is part of the paid ogTools suite. A
 
 waz_Wazar supports the following languages out-of-the-box:
 
-- 🇺🇸 English (EN)
-- 🇫🇷 French (FR)
-- 🇪🇸 Spanish (ES)
-- 🇩🇪 German (DE)[reference:28]
+- 🇺🇸 English (EN), 🇫🇷 French (FR), 🇪🇸 Spanish (ES), 🇩🇪 German (DE)
+- More on demand
 
 Localization affects error messages, UI prompts, and built-in pane texts.
 
@@ -147,7 +138,6 @@ Localization affects error messages, UI prompts, and built-in pane texts.
 ## Support & Resources
 
 - **Official Website**: [https://www.protee.org](https://www.protee.org)
-- **4D Forum**: [Discuss ogTools suite](https://discuss.4d.com) – A vibrant community for questions and best practices.
 - **Documentation**: Full documentation and HDI (Host Database Interface) demos are included with your purchase.
 
 For direct inquiries:
@@ -158,7 +148,7 @@ For direct inquiries:
 
 ## About the Creator
 
-waz_Wazar and the ogTools suite are developed by **Protée sarl**, a company with over 30 years of expertise in 4D development. Led by Olivier Grimbert, the team focuses on delivering high-quality, production-grade tools that enhance developer productivity and application reliability.
+waz_Wazar and the ogToolsSuite are developed by **Protée sarl**, a company with over 30 years of expertise in 4D development. Led by Olivier Grimbert, the team focuses on delivering high-quality, production-grade tools that enhance developer productivity and application reliability.
 
 ---
 
