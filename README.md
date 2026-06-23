@@ -16,6 +16,7 @@
 # waz_Wazar
 
 [![4D Component](https://img.shields.io/badge/4D-Component-blue)](#)
+[![4D Pop](https://img.shields.io/badge/4D-Pop-blue)](#)
 [![License: Commercial](https://img.shields.io/badge/License-Commercial-red.svg)](#license)
 [![Platform: macOS & Windows](https://img.shields.io/badge/Platform-macOS%20%7C%20Windows-lightgrey)](#)
 [![4D v21+](https://img.shields.io/badge/4D-v21%2B-brightgreen)](#)
@@ -115,8 +116,6 @@ waz_Wazar is the UI foundation of the comprehensive **ogTools suite**—an integ
 | <img src="https://www.protee.org/images/wok_Krolific/wok_Krolific.png" alt="wok_Krolific Logo" width="60" style="border-radius: 12px;"> | **wok_Krolific** | License manager. |
 | <img src="https://www.protee.org/images/wox_Xlibrary/wox_Xlibrary.png" alt="wox_Xlibrary Logo" width="60" style="border-radius: 12px;"> | **wox_Xlibrary** | Core utilities for everyday development tasks. |
 | <img src="https://www.protee.org/images/woc_Colours/woc_Colours.png" alt="woc_Colours Logo" width="60" style="border-radius: 12px;"> | **woc_Colours** | Advanced, indexed color management engine. |
-
----
 
 ## License
 
