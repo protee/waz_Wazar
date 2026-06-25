@@ -25,7 +25,7 @@
 
 ## Overview
 
-waz_Wazar is the foundational UI component of the ogTools suite, born from three decades of hands-on experience with the 4D platform.[reference:0] It provides an extensive library of UI widgets designed to handle almost every conceivable scenario a 4D programmer will face.[reference:1] Each widget is highly customizable—globally for application-wide theming, and locally for each individual instance—giving you full control over colors, shapes, and sizes to perfectly match your application's design.[reference:2]
+waz_Wazar is the foundational UI component of the ogTools suite, born from three decades of hands-on experience with the 4D platform. It provides an extensive library of UI widgets designed to handle almost every conceivable scenario a 4D programmer will face. Each widget is highly customizable—globally for application-wide theming, and locally for each individual instance—giving you full control over colors, shapes, and sizes to perfectly match your application's design.
 
 It is a **foundational component** of the ogTools suite, providing the UI engine for all other components.
 
@@ -36,43 +36,43 @@ It is a **foundational component** of the ogTools suite, providing the UI engine
 ### Extensive Widget Library
 The component includes a comprehensive set of UI widgets, covering every common interface element:
 
-- **Value Pickers**: `waz_banner`, `waz_button`, `waz_icon`, `waz_integers`, `waz_menuBtn`, `waz_palette`, `waz_popup`, `waz_progress`, `waz_reals`, `waz_rotator`, `waz_ruler`, `waz_rulers`, `waz_search`, `waz_switch`, `waz_switchs`[reference:3]
-- **Times, Days, Dates**: `waz_date`, `waz_dates`, `waz_dateWidget`, `waz_days`, `waz_monthDay`, `waz_periodWidget`, `waz_time`, `waz_times`, `waz_timeWidget`, `waz_year`, `waz_yearMonth`, `waz_yearPeriod`[reference:4]
-- **Calendar**: `waz_calendar`, `waz_event`, `waz_event_form`[reference:5]
-- **IO Module**: `waz_io_asset`, `waz_io_fun`, `waz_io_popup`, `waz_ioWidget`, `waz_io`, `waz_ios`, `waz_curves`[reference:6]
-- **Dialogs**: `alert`, `confirm`, `more`, `request`, `progress`, `notification`[reference:7]
+- **Value Pickers**: `waz_banner`, `waz_button`, `waz_icon`, `waz_integers`, `waz_menuBtn`, `waz_palette`, `waz_popup`, `waz_progress`, `waz_reals`, `waz_rotator`, `waz_ruler`, `waz_rulers`, `waz_search`, `waz_switch`, `waz_switchs`
+- **Times, Days, Dates**: `waz_date`, `waz_dates`, `waz_dateWidget`, `waz_days`, `waz_monthDay`, `waz_periodWidget`, `waz_time`, `waz_times`, `waz_timeWidget`, `waz_year`, `waz_yearMonth`, `waz_yearPeriod`
+- **Calendar**: `waz_calendar`, `waz_event`, `waz_event_form`
+- **IO Module**: `waz_io_asset`, `waz_io_fun`, `waz_io_popup`, `waz_ioWidget`, `waz_io`, `waz_ios`, `waz_curves`
+- **Dialogs**: `alert`, `confirm`, `more`, `request`, `progress`, `notification`
 
 ### Search Widget (waz_Search)
-- **Flexible Triggering**: Configured to execute a search on every keystroke for real-time feedback, or only upon pressing Return—ideal for filtering slow-running queries.[reference:8]
-- **Versatile Placement**: Can be styled and positioned either at the top or bottom of another object for seamless UI integration.[reference:9]
+- **Flexible Triggering**: Configured to execute a search on every keystroke for real-time feedback, or only upon pressing Return—ideal for filtering slow-running queries.
+- **Versatile Placement**: Can be styled and positioned either at the top or bottom of another object for seamless UI integration.
 
 ### Switch Widgets (waz_Switch, waz_MultiSwitch)
-- **Multiple States**: Support both two-state (on/off) and three-state configurations.[reference:10]
-- **Precise Customization**: All colors are fully customizable, allowing for pixel-perfect alignment with your application's theme.[reference:11]
+- **Multiple States**: Support both two-state (on/off) and three-state configurations.
+- **Precise Customization**: All colors are fully customizable, allowing for pixel-perfect alignment with your application's theme.
 
 ### Advanced Progress Indicator System
-- **Six Distinct Types**: Choose from six different visual styles to represent progress.[reference:12]
-- **Multi-Threshold Coloring**: Define *n* number of thresholds to dynamically change the bar's color as progress advances (e.g., red at 0-30%, yellow at 31-70%, green at 71-100%).[reference:13]
-- **Customizable Animation Curves**: Fine-tune the animation behavior by selecting one of five available easing curves.[reference:14]
+- **Six Distinct Types**: Choose from six different visual styles to represent progress.
+- **Multi-Threshold Coloring**: Define *n* number of thresholds to dynamically change the bar's color as progress advances (e.g., red at 0-30%, yellow at 31-70%, green at 71-100%).
+- **Customizable Animation Curves**: Fine-tune the animation behavior by selecting one of five available easing curves.
 
 ### Centralized Asset Management
-This unique architecture dynamically sources your application's assets—such as buttons and menu icons—from any connected component or the host database itself.[reference:15] Icons are intelligently retrieved and seamlessly provided to the widgets, ensuring a unified and professional interface throughout your application.[reference:16]
+This unique architecture dynamically sources your application's assets—such as buttons and menu icons—from any connected component or the host database itself. Icons are intelligently retrieved and seamlessly provided to the widgets, ensuring a unified and professional interface throughout your application.
 
-- **The waz_menuBtn Widget**: A powerful example, providing a compact, customizable interface for selecting a qualifier value bound to an integer field—all configured through a single parameter object.[reference:17]
-- **Built-in Icon Library**: Includes a library of white/transparent icons designed for dynamic asset generation, allowing you to programmatically create customized icons by combining shapes, colors, and symbols.[reference:18][reference:19]
-- **HTML/JS Viewer**: Lightweight HTML viewer enabling entertaining JavaScript animations and visualizations via `waz_io_fun`.[reference:20]
+- **The waz_menuBtn Widget**: A powerful example, providing a compact, customizable interface for selecting a qualifier value bound to an integer field—all configured through a single parameter object.
+- **Built-in Icon Library**: Includes a library of white/transparent icons designed for dynamic asset generation, allowing you to programmatically create customized icons by combining shapes, colors, and symbols.
+- **HTML/JS Viewer**: Lightweight HTML viewer enabling entertaining JavaScript animations and visualizations via `waz_io_fun`.
 
 ### IO Module: A Unified Dialog System
-Provides six essential dialog types for user interaction: Alert, Confirm, More, Query, Progress, and Notification.[reference:21] Each dialog type has its own global configuration, allowing you to define a consistent default look and behavior across your entire application, while easily overriding any aspect for individual instances.[reference:22] The system is managed through dedicated configuration widgets: `waz_io`, `waz_ios`, and `waz_ioPrefs`.[reference:23]
+Provides six essential dialog types for user interaction: Alert, Confirm, More, Query, Progress, and Notification. Each dialog type has its own global configuration, allowing you to define a consistent default look and behavior across your entire application, while easily overriding any aspect for individual instances. The system is managed through dedicated configuration widgets: `waz_io`, `waz_ios`, and `waz_ioPrefs`.
 
 ### Advanced Data Binding
 Widgets can be bound in two powerful ways:
 - To an object and its properties for direct manipulation.
-- To an integer value, where each switch controls an individual bit—enabling compact and efficient state management.[reference:24]
+- To an integer value, where each switch controls an individual bit—enabling compact and efficient state management.
 
 ### Advanced Scheduling & Calendar Management
-- **Event Widget & Editor**: A fully interactive event (time & duration) management system featuring drag-and-drop editing, flexible time configuration, and precision snap-to-grid control.[reference:25]
-- **Visual Calendar Component**: A beautiful calendar display dynamically populated by data collections, with intelligent collision handling for displaying multiple concurrent events in the same time slot.[reference:26]
+- **Event Widget & Editor**: A fully interactive event (time & duration) management system featuring drag-and-drop editing, flexible time configuration, and precision snap-to-grid control.
+- **Visual Calendar Component**: A beautiful calendar display dynamically populated by data collections, with intelligent collision handling for displaying multiple concurrent events in the same time slot.
 
 ---
 
@@ -82,7 +82,7 @@ Widgets can be bound in two powerful ways:
 - **4D v21** or higher (Project mode recommended).
 - [**wok_Krolific**](https://github.com/protee/wok_Krolific) – Licensing component (mandatory dependency).
 - [**wox_Xlibrary**](https://github.com/protee/wox_Xlibrary) – Core utilities (mandatory dependency).
-- [**woc_Colours**](https://github.com/protee/woc_Colours) – Color management engine (mandatory dependency).[reference:27]
+- [**woc_Colours**](https://github.com/protee/woc_Colours) – Color management engine (mandatory dependency).
 - The [**4D SVG component**](https://github.com/4d/4D-SVG) must be available in your project.
 
 ### Installation via Dependencies Manager (GitHub)
